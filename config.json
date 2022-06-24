@@ -1,0 +1,10 @@
+{
+	"compiler" : "avr-g++",
+	"flags" : [
+		"-Os", "-ffunction-sections", "-fdata-sections",
+		"-mmcu=atmega328p", "-DF_CPU=16000000"
+	],
+	"only_compile" : true,
+	"no_std" : true,
+	"g++_out" : true
+}
