@@ -1,1 +1,6 @@
 cuse libavr
+
+// TODO :
+// - use Arduino headers
+// - add pinMode(), digitalWrite() functions
+// - OUTPUT, INPUT, LOW, HIGH consts
