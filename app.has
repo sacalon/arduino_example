@@ -1,5 +1,9 @@
 use avr
 
 function main():int {
+	while true {
+		// TODO : Blink example
+	}
+
 	return 0
 }
