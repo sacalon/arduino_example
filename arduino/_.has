@@ -1,0 +1,19 @@
+cuse libarduino
+
+const INPUT : uint8 = 0
+const OUTPUT : uint8 = 1
+
+const LOW : uint8 = 0
+const HIGH : uint8 = 1
+
+function pinMode(pin:int, state:int)
+function digitalWrite(pin:int,state:int)
+function _delay_ms(delay_time:int)
+
+function delay(delay_time:int){
+    while 0 < delay_time {
+        _delay_ms(1)
+        delay_time = delay_time - 1
+    }
+    
+}

@@ -1,8 +1,13 @@
-use avr
+use arduino
 
 function main():int {
+	pinMode(13,OUTPUT)
+
 	while true {
-		// TODO : Blink example
+		digitalWrite(13,HIGH)
+		delay(100)
+		digitalWrite(13,LOW)
+		delay(100)
 	}
 
 	return 0
