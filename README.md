@@ -8,9 +8,8 @@ git clone https://github.com/hascal/arduino_example
 cd arduino_example
 ```
 - Open `config.json` file in your code editor and replace `{arduino_path}` with your arduino installation path.
-- Enter following commands in your terminal :
+- Enter following command in your terminal :
 ```
-hascal app.has
 make
 ```
 Now you can upload `app.hex` to your arduino board with `avrdude`.
