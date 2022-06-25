@@ -1,6 +1,14 @@
 # arduino_example
 Trying to use Hascal in arduino boards
 
+## Perquisites
+- Latest Hascal Compiler(from git repo)
+- `avr-gcc`>7.5.x
+- Arduino IDE
+- `make`
+- `avrdude`(to uploading hex file to board)
+- Arduino Uno
+
 ## How to compile ?
 - At first clone the repo :
 ```
