@@ -8,5 +8,6 @@
 	],
 	"only_compile" : true,
 	"no_std" : true,
-	"g++_out" : true
+	"g++_out" : true,
+	"outfile" : "app.o"
 }
